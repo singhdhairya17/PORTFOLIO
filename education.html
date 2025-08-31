@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Dhairya Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<header>
+<nav class="navbar">
+            <div class="logo">Dhairya Singh</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div>
+                <button class="toggle" id="themeToggle" aria-label="Toggle Theme">🌓</button>
+                <a href="dhairya_resume.pdf" class="resume-btn" download>Resume</a>
+            </div>
+        </nav>
+</header>
+<main>
+<section id="education">
+ <h2>
+  Education &amp; Certifications
+ </h2>
+ <div class="education-section">
+  <div class="education-item">
+   <h3>
+    Raj Kumar Goel Institute of Technology (AKTU)
+   </h3>
+   <span>
+    Ghaziabad, IN | Aug 2022 – May 2026
+   </span>
+   <span>
+    Bachelor of Technology in Computer Science
+   </span>
+   <p>
+    CGPA: 8.33
+   </p>
+  </div>
+  <div class="education-item">
+   <h3>
+    Ingraham Institute English School (CISCE)
+   </h3>
+   <span>
+    Ghaziabad, IN | Apr 2021 – Apr 2022
+   </span>
+   <p>
+    Senior Secondary: 85.20%
+   </p>
+   <span>
+    Apr 2019 – Apr 2020
+   </span>
+   <p>
+    High School: 94.16%
+   </p>
+  </div>
+ </div>
+ <div class="certifications">
+  <div class="cert-item">
+   <h4>
+    NPTEL – Programming in Java
+   </h4>
+   <p>
+    Comprehensive course on Java programming covering object-oriented concepts and core libraries.
+   </p>
+  </div>
+  <div class="cert-item">
+   <h4>
+    NPTEL – The Joy of Computing using Python
+   </h4>
+   <p>
+    Gained foundational knowledge of Python through practical programming tasks and problem-solving techniques.
+   </p>
+  </div>
+ </div>
+</section>
+
+</main>
+<footer>
+ © 2025 Dhairya Singh. Designed &amp; Built with passion.
+</footer>
+
+<script>
+ // Theme toggle
+        const themeBtn = document.getElementById('themeToggle');
+        const bodyElement = document.getElementById('body');
+        themeBtn.addEventListener('click', () => {
+            bodyElement.classList.toggle('dark');
+        });
+</script>
+
+</body>
+</html>

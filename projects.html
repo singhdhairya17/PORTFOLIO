@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dhairya Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<header>
+<nav class="navbar">
+            <div class="logo">Dhairya Singh</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div>
+                <button class="toggle" id="themeToggle" aria-label="Toggle Theme">🌓</button>
+                <a href="dhairya_resume.pdf" class="resume-btn" download>Resume</a>
+            </div>
+        </nav>
+</header>
+<main>
+<section id="projects">
+ <h2>
+  Projects
+ </h2>
+ <div class="projects">
+  <div class="project">
+   <div class="project-image">
+    Full-Stack MERN Note-Taking Application
+   </div>
+   <div class="project-info">
+    <h3>
+     Full-Stack MERN Note-Taking Application
+    </h3>
+    <p>
+     Developed a web application for creating, updating, and deleting notes using the MERN stack. Implemented CRUD operations via RESTful APIs and designed a responsive front-end with React for smooth user interaction. Connected to MongoDB to securely store and manage notes, and deployed the application on a cloud platform.
+    </p>
+    <div class="tags">
+     <span class="tag">
+      React.js
+     </span>
+     <span class="tag">
+      Node.js
+     </span>
+     <span class="tag">
+      Express.js
+     </span>
+     <span class="tag">
+      MongoDB
+     </span>
+    </div>
+    <div class="project-buttons">
+     <a href="#" target="_blank">
+      Source
+     </a>
+     <a href="#" target="_blank">
+      Live Demo
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="project">
+   <div class="project-image">
+    Advanced News Application
+   </div>
+   <div class="project-info">
+    <h3>
+     Advanced News Application
+    </h3>
+    <p>
+     Designed and built a dynamic news application utilising external APIs for real-time updates and content delivery. Implemented features to specify the number of news articles displayed and added a domain dropdown and search bar for enhanced user control. Created a responsive single-page application using React.js for seamless interactions.
+    </p>
+    <div class="tags">
+     <span class="tag">
+      React.js
+     </span>
+     <span class="tag">
+      JavaScript
+     </span>
+     <span class="tag">
+      HTML/CSS
+     </span>
+     <span class="tag">
+      API Integration
+     </span>
+    </div>
+    <div class="project-buttons">
+     <a href="#" target="_blank">
+      Source
+     </a>
+     <a href="#" target="_blank">
+      Live Demo
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+</main>
+<footer>
+ © 2025 Dhairya Singh. Designed &amp; Built with passion.
+</footer>
+
+<script>
+ // Theme toggle
+        const themeBtn = document.getElementById('themeToggle');
+        const bodyElement = document.getElementById('body');
+        themeBtn.addEventListener('click', () => {
+            bodyElement.classList.toggle('dark');
+        });
+</script>
+
+</body>
+</html>

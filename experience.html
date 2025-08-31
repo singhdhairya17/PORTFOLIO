@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Dhairya Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<header>
+<nav class="navbar">
+            <div class="logo">Dhairya Singh</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div>
+                <button class="toggle" id="themeToggle" aria-label="Toggle Theme">🌓</button>
+                <a href="dhairya_resume.pdf" class="resume-btn" download>Resume</a>
+            </div>
+        </nav>
+</header>
+<main>
+<section id="experience">
+ <h2>
+  Experience
+ </h2>
+ <div class="experience-list">
+  <div class="experience-item">
+   <h3>
+    Internship Trainee – Centre for Railway Information Systems (CRIS)
+   </h3>
+   <span>
+    June 2025 | Hybrid, Delhi, IN
+   </span>
+   <p>
+    Explored the basics of cloud computing and its role in scalable AI/ML environments. Studied distributed deep learning and the challenges posed by straggler nodes in multi-GPU training. Learned techniques like Median Absolute Deviation (MAD) detection, Automatic Mixed Precision (AMP), and Gradient Scale Consistency (GSCM). Prepared a technical synopsis report summarizing research on ResNet models with CIFAR datasets.
+   </p>
+  </div>
+ </div>
+</section>
+
+</main>
+<footer>
+ © 2025 Dhairya Singh. Designed &amp; Built with passion.
+</footer>
+
+<script>
+ // Theme toggle
+        const themeBtn = document.getElementById('themeToggle');
+        const bodyElement = document.getElementById('body');
+        themeBtn.addEventListener('click', () => {
+            bodyElement.classList.toggle('dark');
+        });
+</script>
+
+</body>
+</html>
