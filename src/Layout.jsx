@@ -6,11 +6,11 @@ import PageWidgets from './PageWidgets.jsx';
 const SECTIONS = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
+  { id: 'skills', label: 'Stack' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
   { id: 'education', label: 'Education' },
-  { id: 'achievements', label: 'Achievements' },
+  { id: 'achievements', label: 'Highlights' },
   { id: 'contact', label: 'Contact' },
 ];
 
