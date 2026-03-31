@@ -1,70 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Dhairya Singh</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body id="body">
-<header>
-<nav class="navbar">
-            <div class="logo">Dhairya Singh</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="achievements.html">Achievements</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div>
-                <button class="toggle" id="themeToggle" aria-label="Toggle Theme">🌓</button>
-                <a href="C:\Users\singh\OneDrive\Desktop\dhairya_resume (1).pdf" class="resume-btn" download>Resume</a>
-            </div>
-        </nav>
-</header>
-<main>
-<section class="hero" id="home">
- <div class="content">
-  <h1>
-   Hi, I'm Dhairya Singh
-  </h1>
-  <h2>
-   Computer Science Student
-  </h2>
-  <p>
-   I'm an aspiring software developer with a passion for building innovative web applications and exploring the world of cloud computing and machine learning. Currently pursuing a B.Tech in Computer Science with a CGPA of 8.33.
-  </p>
-  <div class="buttons">
-   <a class="btn btn-primary" href="projects.html">
-    View Projects
-   </a>
-   <a class="btn btn-outline" href="contact.html">
-    Contact Me
-   </a>
-  </div>
- </div>
- <div class="image">
-  <img alt="Developer illustration" src="C:\Users\singh\Downloads\12249ad6-0ae1-43aa-b305-902e73ab4037.png"/>
- </div>
-</section>
-
-</main>
-<footer>
- © 2025 Dhairya Singh. Designed &amp; Built with passion.
-</footer>
-
-<script>
- // Theme toggle
-        const themeBtn = document.getElementById('themeToggle');
-        const bodyElement = document.getElementById('body');
-        themeBtn.addEventListener('click', () => {
-            bodyElement.classList.toggle('dark');
-        });
-</script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhairya Singh — Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
