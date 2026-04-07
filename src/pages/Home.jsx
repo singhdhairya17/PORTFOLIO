@@ -12,8 +12,8 @@ export default function Home() {
         <h2>4th Year Computer Science Student</h2>
         <p>
           I&apos;m an aspiring software developer with a passion for building innovative web applications and exploring
-          the world of cloud computing and machine learning. Currently in my final year of a B.Tech in Computer Science
-          (CGPA 8.37).
+          AI, developer tools, and agentic workflows, alongside machine learning. Currently in my final year of a B.Tech
+          in Computer Science (CGPA 8.37).
         </p>
         <div className="buttons">
           <a href="#projects" className="btn btn-primary" onClick={(e) => go(e, 'projects')}>

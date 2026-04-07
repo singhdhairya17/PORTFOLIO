@@ -8,6 +8,14 @@ const PROJECTS = [
     github: 'https://github.com/singhdhairya17/wellus-app',
   },
   {
+    title: 'Spring Next Store',
+    blurb: 'Full-stack e-commerce',
+    description:
+      'E-commerce demo with a Spring Boot 3 REST API and a Next.js 15 storefront plus admin area. JWT-secured endpoints, Spring Data JPA with MySQL, client-side cart, checkout flow, and role-based access for catalog management.',
+    tags: ['Spring Boot', 'Next.js', 'MySQL', 'JWT', 'JPA', 'TypeScript'],
+    github: 'https://github.com/singhdhairya17/spring-next-store',
+  },
+  {
     title: 'Citizen Post (Advanced News Application)',
     blurb: 'React news reader',
     description:

@@ -3,8 +3,9 @@ export default function About() {
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I am currently in my fourth year at Raj Kumar Goel Institute of Technology (AKTU), Ghaziabad. Throughout my
-        studies and internships, I&apos;ve gained exposure to cloud computing, distributed deep learning, and straggler
+        I am currently in my fourth year at Raj Kumar Goel Institute of Technology (AKTU), Ghaziabad. Java is a key
+        strength—I use it daily for backend work with Spring-style stacks and solid OOP design. Throughout my studies and
+        internships, I&apos;ve also gained exposure to cloud computing, distributed deep learning, and straggler
         mitigation techniques. I enjoy solving complex problems and continuously learning new technologies.
       </p>
       <div className="about-cards">
@@ -18,8 +19,8 @@ export default function About() {
         <div className="card">
           <h3>Current Focus</h3>
           <p>
-            Expanding my knowledge in Java and Python, and strengthening my understanding of algorithms, data structures,
-            and system design.
+            Doubling down on Java as my core language—Spring Boot, REST APIs, and production-style patterns—while
+            growing in Python, algorithms, data structures, and system design.
           </p>
         </div>
         <div className="card">
@@ -31,10 +32,11 @@ export default function About() {
         </div>
         <div className="card">
           <h3>Interests</h3>
-          <p>
-            Interested in full-stack development, cloud computing, data science, and open source contributions. Enjoy
-            coding challenges and hackathons.
-          </p>
+          <ul className="card-bullets">
+            <li>Exploring agentic workflows (models + tools) through small experiments and reading—learning, not claiming expertise.</li>
+            <li>Trying new AI tools and following ecosystem updates out of curiosity.</li>
+            <li>Reading about ML training and fine-tuning; occasional toy runs to build intuition.</li>
+          </ul>
         </div>
       </div>
     </section>

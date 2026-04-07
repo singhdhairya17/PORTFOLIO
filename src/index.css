@@ -446,6 +446,21 @@ section > h2 {
   line-height: 1.4;
 }
 
+.card-bullets {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.card-bullets li {
+  margin-bottom: 0.4rem;
+}
+
+.card-bullets li:last-child {
+  margin-bottom: 0;
+}
+
 .skills-lead {
   color: var(--text-muted);
   font-size: 0.95rem;

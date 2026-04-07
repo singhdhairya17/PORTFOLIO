@@ -17,11 +17,15 @@ export default function Experience() {
         <div className="experience-item">
           <h3>Intern – Centre for Railway Information Systems (CRIS)</h3>
           <span>June 2025 – Aug 2025 | New Delhi, IN</span>
-          <p>
-            Explored cloud computing and scalable AI/ML environments. Studied distributed deep learning and straggler nodes
-            in multi-GPU training. Reviewed Median Absolute Deviation (MAD) detection, Automatic Mixed Precision (AMP), and
-            Gradient Scale Consistency (GSCM). Authored a technical synopsis on ResNet models with CIFAR datasets.
-          </p>
+          <ul className="experience-bullets">
+            <li>Explored cloud computing and scalable AI/ML environments.</li>
+            <li>Studied distributed deep learning and straggler nodes in multi-GPU training.</li>
+            <li>
+              Reviewed Median Absolute Deviation (MAD) detection, Automatic Mixed Precision (AMP), and Gradient Scale
+              Consistency (GSCM).
+            </li>
+            <li>Authored a technical synopsis on ResNet models with CIFAR datasets.</li>
+          </ul>
         </div>
       </div>
     </section>

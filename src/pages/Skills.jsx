@@ -11,6 +11,7 @@ const TECH_STACK = [
   { name: 'React', src: `${DEVICON}/react/react-original.svg` },
   { name: 'Node.js', src: `${DEVICON}/nodejs/nodejs-original.svg` },
   { name: 'Express', src: `${DEVICON}/express/express-original.svg` },
+  { name: 'Spring', src: `${DEVICON}/spring/spring-original.svg`, title: 'Spring Framework / Spring Boot' },
   { name: 'MongoDB', src: `${DEVICON}/mongodb/mongodb-original.svg` },
   { name: 'Git', src: `${DEVICON}/git/git-original.svg` },
   { name: 'GitHub', src: `${DEVICON}/github/github-original.svg` },
