@@ -1,3 +1,30 @@
+const CERTIFICATIONS = [
+  {
+    title: 'NPTEL – Programming in Java',
+    description:
+      'Comprehensive course on Java programming covering object-oriented concepts and core libraries.',
+    href: 'https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S105590059530357531.pdf',
+  },
+  {
+    title: 'NPTEL – The Joy of Computing using Python',
+    description:
+      'Gained foundational knowledge of Python through practical programming tasks and problem-solving techniques.',
+    href: 'https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs57/Course/NPTEL24CS57S65590056730357531.pdf',
+  },
+  {
+    title: 'NPTEL – Big Data Computing (Elite · Top 5%)',
+    description:
+      'Big data analytics and distributed computing; NPTEL Elite certification (top 5%). Issued Oct 2025.',
+    href: 'https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs131/Course/NPTEL25CS131S115660002910299883.pdf',
+  },
+  {
+    title: 'NPTEL – Programming with Generative AI',
+    description:
+      'Fundamentals of generative AI, LLMs, and prompt-based programming with Python. Issued Oct 2025.',
+    href: 'https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs137/Course/NPTEL25CS137S105660008610299883.pdf',
+  },
+];
+
 export default function Education() {
   return (
     <section id="education">
@@ -18,14 +45,17 @@ export default function Education() {
         </div>
       </div>
       <div className="certifications">
-        <div className="cert-item">
-          <h4>NPTEL – Programming in Java</h4>
-          <p>Comprehensive course on Java programming covering object-oriented concepts and core libraries.</p>
-        </div>
-        <div className="cert-item">
-          <h4>NPTEL – The Joy of Computing using Python</h4>
-          <p>Gained foundational knowledge of Python through practical programming tasks and problem-solving techniques.</p>
-        </div>
+        {CERTIFICATIONS.map(({ title, description, href }) => (
+          <div key={href} className="cert-item">
+            <h4>{title}</h4>
+            <p>{description}</p>
+            <div className="project-buttons cert-pdf-link">
+              <a href={href} target="_blank" rel="noopener noreferrer">
+                Certificate (PDF)
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

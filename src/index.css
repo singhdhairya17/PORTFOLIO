@@ -722,6 +722,11 @@ section#skills > h2 {
   color: var(--primary);
 }
 
+.cert-item .cert-pdf-link {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+}
+
 .achievements {
   margin-top: 2rem;
   background-color: var(--card-bg);
