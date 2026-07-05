@@ -9,11 +9,10 @@ export default function Home() {
     <section className="hero" id="home">
       <div className="content">
         <h1>Hi, I&apos;m Dhairya Singh</h1>
-        <h2>4th Year Computer Science Student</h2>
+        <h2>Associate Software Engineer</h2>
         <p>
           I&apos;m an aspiring software developer with a passion for building innovative web applications and exploring
-          AI, developer tools, and agentic workflows, alongside machine learning. Currently in my final year of a B.Tech
-          in Computer Science (CGPA 8.37).
+          AI, developer tools, and agentic workflows, alongside machine learning. Completed B.Tech in Computer Science (CGPA 8.44).
         </p>
         <div className="buttons">
           <a href="#projects" className="btn btn-primary" onClick={(e) => go(e, 'projects')}>
