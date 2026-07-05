@@ -32,9 +32,9 @@ export default function Education() {
       <div className="education-section">
         <div className="education-item">
           <h3>Raj Kumar Goel Institute of Technology (AKTU)</h3>
-          <span>Ghaziabad, IN | Aug 2022 – May 2026</span>
+          <span>Ghaziabad, IN | Aug 2022 – June 2026</span>
           <span>Bachelor of Technology in Computer Science</span>
-          <p>CGPA: 8.37</p>
+          <p>CGPA: 8.44</p>
         </div>
         <div className="education-item">
           <h3>Ingraham Institute English School (CISCE)</h3>
