@@ -40,7 +40,7 @@ export default function PageWidgets() {
 
       <aside className="widget-rail" aria-label="Quick links and highlights">
         <div className="widget-card widget-stat">
-          <span className="widget-stat-value">8.37</span>
+          <span className="widget-stat-value">8.44</span>
           <span className="widget-stat-label">CGPA</span>
         </div>
         <div className="widget-card widget-stat">
@@ -48,7 +48,7 @@ export default function PageWidgets() {
           <span className="widget-stat-label">DSA</span>
         </div>
         <div className="widget-card widget-stat">
-          <span className="widget-stat-value">1943</span>
+          <span className="widget-stat-value">2011</span>
           <span className="widget-stat-label">Chess peak</span>
         </div>
         <div className="widget-card widget-social">
