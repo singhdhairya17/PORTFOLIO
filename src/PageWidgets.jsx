@@ -17,9 +17,9 @@ export default function PageWidgets() {
   return (
     <>
       <div className="widget-mobile-strip" aria-label="Quick highlights">
-        <span className="widget-pill">CGPA 8.37</span>
+        <span className="widget-pill">CGPA 8.44</span>
         <span className="widget-pill">250+ DSA</span>
-        <span className="widget-pill">♟ 1943</span>
+        <span className="widget-pill">♟ 2011</span>
         <a
           href="https://www.linkedin.com/in/dhairya-singh-b75361303"
           target="_blank"
