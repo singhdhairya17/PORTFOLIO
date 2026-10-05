@@ -17,9 +17,9 @@ export default function PageWidgets() {
   return (
     <>
       <div className="widget-mobile-strip" aria-label="Quick highlights">
-        <span className="widget-pill">CGPA 8.37</span>
+        <span className="widget-pill">CGPA 8.44</span>
         <span className="widget-pill">250+ DSA</span>
-        <span className="widget-pill">♟ 1943</span>
+        <span className="widget-pill">♟ 2011</span>
         <a
           href="https://www.linkedin.com/in/dhairya-singh-b75361303"
           target="_blank"
@@ -40,7 +40,7 @@ export default function PageWidgets() {
 
       <aside className="widget-rail" aria-label="Quick links and highlights">
         <div className="widget-card widget-stat">
-          <span className="widget-stat-value">8.37</span>
+          <span className="widget-stat-value">8.44</span>
           <span className="widget-stat-label">CGPA</span>
         </div>
         <div className="widget-card widget-stat">
@@ -48,7 +48,7 @@ export default function PageWidgets() {
           <span className="widget-stat-label">DSA</span>
         </div>
         <div className="widget-card widget-stat">
-          <span className="widget-stat-value">1943</span>
+          <span className="widget-stat-value">2011</span>
           <span className="widget-stat-label">Chess peak</span>
         </div>
         <div className="widget-card widget-social">

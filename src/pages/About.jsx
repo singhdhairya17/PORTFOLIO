@@ -1,43 +1,38 @@
+const CARDS = [
+  {
+    title: 'Background',
+    body: "I started Java in 9th grade at an ICSE school and it's still my main language. B.Tech in Computer Science from Raj Kumar Goel Institute of Technology (AKTU), CGPA 8.44.",
+  },
+  {
+    title: 'What I do',
+    body: 'Backend work in Java and Spring Boot. I design APIs, implement auth with OAuth 2.0 and JWT, and connect our product to external platforms. I usually own a feature from the first research doc to the release.',
+  },
+  {
+    title: 'Currently building',
+    body: "Nexus960, a real-time Chess960 site I'm building alone with Next.js, Fastify, Socket.io, PostgreSQL and Redis, with help from Cursor and Claude Code.",
+  },
+  {
+    title: 'Beyond code',
+    body: 'I co-wrote an IEEE paper on explainable AI for nutrition, studied distributed deep learning during my CRIS internship, and play a lot of chess (peak 2011 on Chess.com).',
+  },
+];
+
 export default function About() {
   return (
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am currently in my fourth year at Raj Kumar Goel Institute of Technology (AKTU), Ghaziabad. Java is a key
-        strength—I use it daily for backend work with Spring-style stacks and solid OOP design. Throughout my studies and
-        internships, I&apos;ve also gained exposure to cloud computing, distributed deep learning, and straggler
-        mitigation techniques. I enjoy solving complex problems and continuously learning new technologies.
+      <span className="section-eyebrow">About</span>
+      <h2>About me</h2>
+      <p className="section-lead">
+        I&apos;m a backend engineer in Noida. I mostly write Java, and lately I spend more of my spare time on AI
+        tooling and side projects.
       </p>
       <div className="about-cards">
-        <div className="card">
-          <h3>Background</h3>
-          <p>
-            Enthusiastic learner exploring cloud computing, distributed systems and AI/ML techniques. Actively improving
-            my skills through coursework and online resources.
-          </p>
-        </div>
-        <div className="card">
-          <h3>Current Focus</h3>
-          <p>
-            Doubling down on Java as my core language—Spring Boot, REST APIs, and production-style patterns—while
-            growing in Python, algorithms, data structures, and system design.
-          </p>
-        </div>
-        <div className="card">
-          <h3>Goals</h3>
-          <p>
-            Seeking opportunities to apply my skills in real-world projects, contribute to collaborative teams, and
-            build scalable applications that solve real problems.
-          </p>
-        </div>
-        <div className="card">
-          <h3>Interests</h3>
-          <ul className="card-bullets">
-            <li>Exploring agentic workflows (models + tools) through small experiments and reading—learning, not claiming expertise.</li>
-            <li>Trying new AI tools and following ecosystem updates out of curiosity.</li>
-            <li>Reading about ML training and fine-tuning; occasional toy runs to build intuition.</li>
-          </ul>
-        </div>
+        {CARDS.map(({ title, body }) => (
+          <div key={title} className="card">
+            <h3>{title}</h3>
+            <p>{body}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

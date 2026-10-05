@@ -1,39 +1,55 @@
+const HIGHLIGHTS = [
+  {
+    value: 'IEEE',
+    title: 'First-author conference paper',
+    body: 'Presented and defended WELLUS at EmergIN 2025 (IEEE), Greater Noida, while working full-time.',
+    href: 'https://ieeexplore.ieee.org/document/11450916',
+    linkLabel: 'IEEE Xplore ↗',
+  },
+  {
+    value: 'Top 5%',
+    title: 'NPTEL Elite: Big Data Computing',
+    body: 'NPTEL Elite certificate in big data analytics and distributed computing, Oct 2025.',
+  },
+  {
+    value: '250+',
+    title: 'DSA problems solved',
+    body: 'Across LeetCode and GeeksforGeeks.',
+  },
+  {
+    value: '2011',
+    title: 'Peak chess rating',
+    body: 'On Chess.com.',
+  },
+];
+
 export default function Achievements() {
   return (
     <section id="achievements">
-      <h2>Highlights</h2>
-      <div className="certifications">
-        <div className="cert-item">
-          <h4>
-            WELLUS: An Intelligent Dietary Management System Using OCR, Adaptive Monitoring, and Explainable AI
-          </h4>
-          <p>
-            IEEE — 2025 International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN),
-            Greater Noida, India · 28–29 November 2025
-          </p>
-          <p>
-            Dhairya Singh, Pawan Kumar Goel, Anamika Verma, Lakshya Saxena, Naman Jain
-          </p>
-          <p>
-            Conference paper on an integrated mHealth app: OCR for packaged food labels, personalized AI guidance, a
-            rule-based adaptive module, and explainable AI for transparent nutrition recommendations.
-          </p>
-          <div className="project-buttons">
-            <a
-              href="https://ieeexplore.ieee.org/document/11450916"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              IEEE Xplore
-            </a>
+      <span className="section-eyebrow">Highlights</span>
+      <h2>Papers, certificates and chess</h2>
+      <div className="highlights">
+        {HIGHLIGHTS.map((h) => (
+          <div key={h.title} className="highlight">
+            <strong className="highlight-value">{h.value}</strong>
+            <h3>{h.title}</h3>
+            <p>{h.body}</p>
+            {h.href && (
+              <a href={h.href} target="_blank" rel="noopener noreferrer">
+                {h.linkLabel}
+              </a>
+            )}
           </div>
-        </div>
+        ))}
       </div>
-      <div className="achievements">
-        <h3>Achievements</h3>
-        <p>
-          Solving over 250 Data Structures and Algorithms problems across various coding platforms, continuously
-          improving problem-solving skills.
+      <div className="paper-card">
+        <span className="project-badge">Publication</span>
+        <h3>
+          WELLUS: An Intelligent Dietary Management System Using OCR, Adaptive Monitoring, and Explainable AI
+        </h3>
+        <p className="paper-meta">
+          2025 International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN), IEEE ·
+          Dhairya Singh, Pawan Kumar Goel, Anamika Verma, Lakshya Saxena, Naman Jain
         </p>
       </div>
     </section>
